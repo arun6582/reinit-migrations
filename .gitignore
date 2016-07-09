@@ -1,3 +1,4 @@
 *.pyc
 dist/*
+build/*
 django_manage_reset_migrations.egg-info/*
