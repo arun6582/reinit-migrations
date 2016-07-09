@@ -1,0 +1,3 @@
+*.pyc
+dist/*
+django_manage_reset_migrations.egg-info/*
