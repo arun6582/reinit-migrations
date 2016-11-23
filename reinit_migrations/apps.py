@@ -3,5 +3,5 @@ from __future__ import unicode_literals
 from django.apps import AppConfig
 
 
-class ResetInitManageCommandConfig(AppConfig):
+class ReInitMigrationsConfig(AppConfig):
     name = 'reinit_migrations'
