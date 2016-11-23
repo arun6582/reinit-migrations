@@ -8,7 +8,7 @@
 
 **Usage**
 
-Add reinit_migrations to INSTALLED_APPS
+Add django_manage_reset_migrations to INSTALLED_APPS
 
 *./manage reset_migrations*
 
@@ -18,7 +18,7 @@ It will delete all the applied migrations from the disk and the db. Useful when 
 
 **Usage**
 
-Add reinit_migrations to INSTALLED_APPS
+Add django_manage_reset_migrations to INSTALLED_APPS
 
 *./manage reset_migrations*
 
