@@ -1,6 +1,6 @@
 **Installation**
 
-*pip install django-manage-reset-migrations*
+*pip install reinit-migrations*
 
 
 
@@ -8,9 +8,9 @@
 
 **Usage**
 
-Add django_manage_reset_migrations to INSTALLED_APPS
+Add reinit_migrations to INSTALLED_APPS
 
-*./manage reset_migrations*
+*./manage reinit_migrations*
 
 It will delete all the applied migrations from the disk and the db. Useful when migration files are too many and it slows down the computer. Reset migrations using this utility and run makemigration then fake all of them.
 
@@ -18,13 +18,13 @@ It will delete all the applied migrations from the disk and the db. Useful when 
 
 **Usage**
 
-Add django_manage_reset_migrations to INSTALLED_APPS
+Add reinit_migrations to INSTALLED_APPS
 
-*./manage reset_migrations*
+*./manage reinit_migrations*
 
 This will delete migrations for all apps from db and disk
 
-./manage reset_migrations --apps app1 app2 app3 ...*
+./manage reinit_migrations --apps app1 app2 app3 ...*
 
 This will delete migration for app1, app2, app3 only.
 
