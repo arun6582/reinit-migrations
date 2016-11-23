@@ -8,14 +8,14 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='django-manage-reset-migrations',
+    name='reinit-migrations',
     version='0.2',
     packages=find_packages(),
     include_package_data=True,
     license='',
     description='A management utility to reset migrations',
     long_description=README,
-    url='https://github.com/arun6582/django-manage-reset-migrations/',
+    url='https://github.com/arun6582/reinit-migrations/',
     author='Arun Kumar',
     author_email='arun6582@gmail.com',
     classifiers=[

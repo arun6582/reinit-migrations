@@ -1,6 +1,6 @@
 **Installation**
 
-*pip install django-manage-reset-migrations*
+*pip install reinit-migrations*
 
 
 
