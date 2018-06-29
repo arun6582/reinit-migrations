@@ -40,7 +40,6 @@ django_migrations table"
         from django.db import connection
         connection = connection
         allowed_apps = self.get_apps()
-        import pdb; pdb.set_trace()
         if options.get('apps', None):
             migrations_applied = recorder.MigrationRecorder(
                 connection
