@@ -28,6 +28,12 @@ This will delete migrations for all apps from db and disk
 
 This will delete migration for app1, app2, app3 only.
 
+**Release 0.4**
+Separate your apps into three lists
+DEFAULT = [django framework apps]
+THIRD_PARTY_APPS = [third party apps]
+LOCAL_APPS = [your apps]
 
+this app will work on LOCAL_APPS only.
 
 *As always pull requests are welcome :)*
