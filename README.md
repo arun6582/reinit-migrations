@@ -11,8 +11,8 @@ It will delete all the applied migrations from the disk and the db. Useful when 
 ## Usage
 Add reinit_migrations to INSTALLED_APPS.
 ```./manage reinit_migrations```
-This will delete migrations for all apps from db and disk
-./manage reinit_migrations --apps app1 app2 app3 ...*
+This will delete migrations for all apps from db and disk.
+```./manage reinit_migrations --apps app1 app2 app3 ...```
 This will delete migration for app1, app2, app3 only.
 
 ## Release 0.6
