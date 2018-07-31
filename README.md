@@ -15,7 +15,7 @@ This will delete migrations for all apps from db and disk
 `./manage reinit_migrations --apps app1 app2 app3 ...*`
 This will delete migration for app1, app2, app3 only.
 
-## Release 0.4
+## Release 0.6
 Separate your apps into three lists
 ```
 DEFAULTS = [django framework apps]
